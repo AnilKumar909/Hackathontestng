@@ -42,7 +42,11 @@ public class baseClass {
 	Upcomingbikes ub;
 	Usedcars uc;
 	
-	@Parameters({"browser","url"})
+	
+	
+	
+	
+	@Parameters({"browser","url"}) 
 	@BeforeClass
 	public void setup(String browser,String url) throws IOException {
 		if(browser.equalsIgnoreCase("chrome")) {
@@ -63,7 +67,7 @@ public class baseClass {
 		hp.hovernewBikes();
 		ScreenShot("HoverNewBikes");
 		hp.upcomingbikes();	
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		ScreenShot("UpComingbikes");
 
 	}
