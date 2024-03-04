@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite"> thread-counta="2"
+
+<groups>
+<run>			
+</run>
+</groups>
+ <listeners>
+<listener class-name="testpack.ExtentReportManager"></listener>
+</listeners>
+
+  <test thread-count="5" name="Chrome Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <parameter name="url" value="https://www.zigwheels.com/"></parameter>
+
+    <classes>
+      <class name="testpack.baseClass"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <!--
+  <test thread-count="5" name="Chrome Test">
+  <parameter name="browser" value="edge"></parameter>
+    <parameter name="url" value="https://www.zigwheels.com/"></parameter>
+
+    <classes>
+      <class name="testpack.baseClass"/>
+    </classes>
+  </test>
+  -->
+</suite> <!-- Suite -->

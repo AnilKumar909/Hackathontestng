@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T10:35:57 IST" name="Suite" finished-at="2024-02-28T10:38:22 IST" duration-ms="145546">
+    <groups>
+    </groups>
+    <test started-at="2024-02-28T10:35:57 IST" name="Chrome Test" finished-at="2024-02-28T10:38:22 IST" duration-ms="145546">
+      <class name="testpack.baseClass">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testpack.baseClass@2d3379b4]" started-at="2024-02-28T10:35:58 IST" name="setup" finished-at="2024-02-28T10:36:25 IST" duration-ms="27368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.zigwheels.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="newbikes()[pri:1, instance:testpack.baseClass@2d3379b4]" started-at="2024-02-28T10:36:25 IST" name="newbikes" finished-at="2024-02-28T10:36:49 IST" duration-ms="23995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newbikes -->
+        <test-method signature="bikeslist()[pri:2, instance:testpack.baseClass@2d3379b4]" started-at="2024-02-28T10:36:49 IST" name="bikeslist" finished-at="2024-02-28T10:37:10 IST" duration-ms="20945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikeslist -->
+        <test-method signature="usedcars()[pri:3, instance:testpack.baseClass@2d3379b4]" started-at="2024-02-28T10:37:11 IST" name="usedcars" finished-at="2024-02-28T10:37:49 IST" duration-ms="38141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedcars -->
+        <test-method signature="Account(java.lang.String)[pri:4, instance:testpack.baseClass@2d3379b4]" started-at="2024-02-28T10:37:49 IST" name="Account" data-provider="Input" finished-at="2024-02-28T10:38:21 IST" duration-ms="32156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ram@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Account -->
+        <test-method is-config="true" signature="Flush()[pri:0, instance:testpack.baseClass@2d3379b4]" started-at="2024-02-28T10:38:21 IST" name="Flush" finished-at="2024-02-28T10:38:22 IST" duration-ms="1275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flush -->
+      </class> <!-- testpack.baseClass -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>
